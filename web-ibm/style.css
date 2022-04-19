@@ -1,8 +1,9 @@
 body {
-  background-color: #ccc;
+  background-color: rgb(255, 255, 255);
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Nunito', sans-serif;
 }
 
 header {
@@ -26,8 +27,15 @@ header {
 
 nav ul li a {
   text-decoration: none;
+  color: #f29200;
+   
 }
 
 nav ul {
   list-style: none;
+}
+
+nav ul li a:hover {
+  color:#575757;
+
 }
