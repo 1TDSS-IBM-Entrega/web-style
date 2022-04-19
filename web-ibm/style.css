@@ -16,12 +16,12 @@ header {
 .img--container {
   padding: 10px;
   box-shadow: 0px 5px 10px rgb(70, 67, 67);
-  border-radius: ;
+ 
 }
 
 .title {
-  letter-spacing: 10px;
-  font-weight: 300;
+  letter-spacing: 8px;
+  font-weight: 1000;
 }
 
 nav ul li a {
