@@ -24,37 +24,63 @@ header {
   font-weight: 300;
 }
 
-nav ul li a {
-  text-decoration: none;
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
 }
 
-nav ul {
-  list-style: none;
+
+
+.menu{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.menu ul{
+ list-style: none; 
+ position: relative;
+
 }
 
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
-
-.topnav a {
+.menu ul li{
+  width: auto;
   float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-.topnav a.active {
-  background-color: #f29100;
-  color: white;
+
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
+.menu a {
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+
+}
+
+.menu ul ul {
+
+position: absolute;
+visibility: hidden;
+
+}
+
+.menu ul li:hover ul{
+  visibility: visible;
+}
+
+.menu a:hover{
+  background-color: #f4f4f4;
+  color: black;
+} 
+
+.menu ul ul li{
+  float: none;
+  border-bottom: solid 1px #ccc;
 }
