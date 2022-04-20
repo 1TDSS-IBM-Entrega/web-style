@@ -15,30 +15,34 @@ body {
 }
 
 
-#menu-h {
+.menu-h {
   list-style: none;
-  padding: 0;
   background-color: #525050;
+  margin: auto 20px;
+  margin-top: -69px;
 }
 
-#menu-h li{
+.menu-h li{
   display: inline;
+  margin: 0;
 }
 
-#menu-h li a{
+.menu-h li a{
   color: #FFF;
   padding: 15px;
   display: inline-block ;
   text-decoration: none;
+  transition: all .7s;
+  margin: 0;
 }
 
 
-#menu-h li a:hover{
+.menu-h li a:hover{
   background-color:  #da8a0f;
-  
+  margin: 0;
 }
 
-#menu-h li:last-child a{
+.menu-h li:last-child a{
   float: right;
   background-color: #da8a0f ;
 }
@@ -66,6 +70,7 @@ header {
   letter-spacing: 10px;
   font-weight: 300;
   animation: container-appear 1s ease-out forwards;
+  color: #ccc;
 }
 
 @keyframes container-appear {
@@ -81,7 +86,7 @@ header {
 
   100% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(-30rem);
   }
 }
 
