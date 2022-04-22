@@ -1,0 +1,164 @@
+h1 {
+  width: 580px;
+  font-size: 24px;
+  text-align: center;
+  margin: 15px auto;
+}
+
+.container {
+  width: 580px;
+  font-size: 17px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+
+.container a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container a:hover {
+  background-color: rgb(119, 217, 77);
+}
+
+.line1 {
+  position: relative;
+  font-size: 0;
+  width: 1px;
+  height: 150px;
+  color: #fff;
+  background-color: #000;
+  margin: auto;
+}
+
+.line4 {
+  width: 350px;
+  height: 1px;
+  color: #fff;
+  background-color: #000;
+  margin: 30px auto;
+}
+
+.line3 {
+  /* display: inline; */
+  width: 1px;
+  height: 280px;
+  color: #fff;
+  background-color: #000;
+  margin-bottom: -310px;
+  margin-left: 114px;
+}
+
+.line5 {
+  width: 1px;
+  height: 180px;
+  color: #fff;
+  background-color: #000;
+  margin-top: -30px;
+  margin-left: 464px;
+}
+
+.line6 {
+  position: absolute;
+  width: 161px;
+  height: 1px;
+  color: #fff;
+  background-color: #000;
+  margin-left: 290px;
+  margin-top: 25px;
+}
+
+.line7 {
+  position: absolute;
+  width: 1px;
+  height: 78px;
+  color: #fff;
+  background-color: #000;
+  margin-top: 43px;
+  margin-left: 520px;
+}
+
+.line8 {
+  position: absolute;
+  width: 231px;
+  height: 1px;
+  color: #fff;
+  background-color: #000;
+  margin-left: 290px;
+  margin-top: 119px;
+}
+
+.node1 {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #000;
+  margin: auto;
+}
+
+.node2 {
+  position: absolute;
+  padding: 5px;
+  border: 1px solid #000;
+  margin-left: 259px;
+  margin-top: -94px;
+  background-color: #fff;
+}
+
+.node3 {
+  position: absolute;
+  /* display: inline; */
+  border: 1px solid #000;
+  margin-left: 47px;
+  padding: 5px;
+  background-color: #fff;
+  margin-top: -95px;
+}
+
+.node4 {
+  position: absolute;
+  /* display: inline; */
+  border: 1px solid #000;
+  margin-left: 400px;
+  padding: 5px;
+  margin-top: -95px;
+  background-color: #fff;
+}
+
+.node5 {
+  position: absolute;
+  /* display: inline; */
+  border: 1px solid #000;
+  margin-left: 69px;
+  padding: 5px;
+  margin-top: -20px;
+  background-color: #fff;
+}
+
+.node6 {
+  position: absolute;
+  /* display: inline; */
+  border: 1px solid #000;
+  margin-left: 86px;
+  padding: 5px;
+  margin-top: 69px;
+  background-color: #fff;
+}
+
+.node7 {
+  padding: 5px;
+  border: 1px solid #000;
+  margin-left: 450px;
+  margin-top: -320px;
+  background-color: #fff;
+}
+
+.node8 {
+  position: absolute;
+  /* display: inline; */
+  border: 1px solid #000;
+  margin-left: 430px;
+  padding: 5px;
+  margin-top: 267px;
+  background-color: #fff;
+}

@@ -1,47 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
-
-body {
-  background-color: #ccc;
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-img {
-  margin: 10px auto;
-  box-shadow: 0px 4px 18px rgba(26, 24, 24, 0.749);
-  display: block;
-  width: 50%;
-  height: auto;
-}
-
-.page-name {
-  letter-spacing: 10px;
-  font-weight: 400;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  box-shadow: 0px 4px 23px rgba(26, 24, 24, 0.749);
-  width: 50%;
-  text-align: center;
-  margin-top: 40px;
-  font-size: 50px;
-}
-
-.page-text {
-  padding: 10px;
-  width: 50%;
-  border: solid #000;
-  text-align: center;
-  font-size: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
-}@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 body {
   background-color: #ccc;
@@ -90,7 +47,7 @@ img {
   align-content: center;
 }
 
-.btn{
+.btn {
   padding: 15px;
   border-radius: 6%;
   box-shadow: 0px 4px 23px rgba(26, 24, 24, 0.749);
@@ -98,7 +55,7 @@ img {
   background-color: rgba(142, 142, 184, 0.651);
 }
 
-.btn:hover{
+.btn:hover {
   box-shadow: 0px 4px 23px rgba(26, 24, 24, 0.9);
   background-color: rgba(77, 77, 109, 0.815);
 }
